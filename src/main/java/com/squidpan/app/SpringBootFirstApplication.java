@@ -10,6 +10,9 @@ public class SpringBootFirstApplication {
 
         SpringApplication.run(SpringBootFirstApplication.class, args);
         System.out.println("Hello World!");
+
+        Laptop laptop = new Laptop();
+        laptop.compile();
 	}
 
 }
